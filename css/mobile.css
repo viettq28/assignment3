@@ -1,0 +1,45 @@
+@media screen and (max-width: 576px) {
+  /* navbar */
+  .avatar {
+    display: none;
+  }
+  #nav-bar nav {
+    flex-flow: column;
+    padding: 0;
+  }
+  #nav-bar nav a {
+    border: none !important;
+    padding-left: 1rem;
+    text-align: left;
+  }
+
+  #nav-bar nav > :nth-child(4) {
+    margin-left: 0;
+  }
+
+  /* cert */
+
+  .items.cert-content__ {
+    flex-direction: column;
+  }
+
+  .cert-content__.items {
+    flex-basis: 100%;
+  }
+
+  /* job-info */
+
+  /* project */
+
+  .annotation {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+  }
+  .annotation > * {
+    text-align: left;
+  }
+
+
+}
